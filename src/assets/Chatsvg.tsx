@@ -7,7 +7,7 @@ const ChatSvg = (props: SVGProps<SVGSVGElement>) => {
       height="24"
       width="24"
       preserveAspectRatio="xMidYMid meet"
-      
+      {...props}
       fill="none"
     >
       <title>chats-outline</title>

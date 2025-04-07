@@ -9,7 +9,7 @@ export default function Layout(props:{children:ReactNode}){
 
     return(
 
-        <div className="h-screen w-screen grid grid-cols-12 ">
+        <div className="h-screen w-screen grid grid-cols-18 ">
               <ActiveBar/>
               <MainSide/>
               <Main/>
