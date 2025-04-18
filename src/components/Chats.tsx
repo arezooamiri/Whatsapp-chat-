@@ -1,14 +1,10 @@
 import React from "react";
-
-
-
-
+import ChatsHeader from "./ChatsHeader";
 
 const Chats: React.FC = () => {
   return (
-    <div>
-      
-      <h1>Chat Section</h1>
+    <div className="flex flex-col">
+      <ChatsHeader />
     </div>
   );
 };
