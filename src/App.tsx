@@ -1,7 +1,7 @@
 
-import ActiveBar from "./components /ActiveBar"
-import MainSide from "./components /MainSide"
-import Main from "./components /Main"
+import ActiveBar from "./components/ActiveBar"
+import MainSide from "./components/MainSide"
+import Main from "./components/Main"
 
 function App() {
  
@@ -9,7 +9,7 @@ function App() {
   return (
       
               <div className="h-screen w-screen grid grid-cols-18 ">
-                    <ActiveBar />
+                    <ActiveBar/>
                     <MainSide/>
                     <Main/>
               </div>
