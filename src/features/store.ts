@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import activeSectionReducer from "./sideSection"
+import activeSectionReducer from "./sideSection";
 
 // Define the store
 const store = configureStore({
   reducer: {
-    activeSection: activeSectionReducer
+    activeSection: activeSectionReducer,
   },
 });
 

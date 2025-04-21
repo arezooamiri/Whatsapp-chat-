@@ -1,9 +1,3 @@
-
-
-
-export default function Communities(){
-
-     return(
-        <div>communitise</div>
-     )
+export default function Communities() {
+  return <div>communitise</div>;
 }

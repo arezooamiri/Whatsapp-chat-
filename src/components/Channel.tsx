@@ -1,8 +1,3 @@
-
-
-
-export default function  Channel(){
-    return(
-        <div>Channel</div>
-    )
+export default function Channel() {
+  return <div>Channel</div>;
 }

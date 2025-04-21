@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-const SettingSvg = (props:SVGProps<SVGSVGElement>) => {
+const SettingSvg = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       viewBox="0 0 24 24"
