@@ -1,10 +1,3 @@
-
-
-
-
-export default function Status(){
-
-    return(
-        <div>status</div>
-    )
+export default function Status() {
+  return <div>status</div>;
 }
