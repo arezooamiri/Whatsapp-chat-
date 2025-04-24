@@ -27,7 +27,7 @@ export default function ActiveBar() {
   ];
 
   return (
-    <div className="Activebar grid-cols-1 bg-gray-200 border-r border-gray-300 flex flex-col justify-between  items-center p-2">
+    <div className="Activebar grid-cols-1 bg-gray-100 border-r border-gray-300 flex flex-col justify-between  items-center p-2">
       <div className=" flex flex-col gap-2 items-center">
         {svgItem.map((item, index) => (
           <button
